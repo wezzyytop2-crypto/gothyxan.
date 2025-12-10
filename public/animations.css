@@ -1,0 +1,18 @@
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .7s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.smooth {
+    transition: all .3s ease;
+}
+
+.glow-hover:hover {
+    filter: drop-shadow(0 0 10px rgba(255,255,255,.2));
+}
